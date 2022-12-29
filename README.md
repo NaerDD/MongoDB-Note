@@ -155,12 +155,7 @@ db.emp.find().sort({sal:1,empno:-1}) #先按照sal升序排列，如果遇到相
 db.emp.find({},{ename:1,_id:0}) #在匹配到的文档中只显示ename字段
 
 
-
-
-
 ```
-
-
 
 ### 修改数据
 
@@ -531,14 +526,3 @@ UserModel.find({}, function (err, data) {
     }
   });
   ```
-
-  
-
-
-
-
-
-
-
-
-
